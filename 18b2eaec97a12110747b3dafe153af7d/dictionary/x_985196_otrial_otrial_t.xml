@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7293e22497e12110747b3dafe153afa0" max_length="40" name="x_985196_otrial_otrial_t" type="collection">
+        <element default="true" label="CLM_BOOL" mandatory="true" max_length="40" name="clm_bool" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="CLM_DTTM" mandatory="true" max_length="40" name="clm_dttm" type="glide_date_time"/>
+        <element display="true" label="CLM_NUM" mandatory="true" max_length="15" name="clm_num" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="でふぉると" label="CLM_STR" mandatory="true" max_length="40" name="clm_str" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
